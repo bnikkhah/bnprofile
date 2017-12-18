@@ -1,0 +1,162 @@
+/* Colors
+
+    Primary blue: #0062FF
+    Secondary blue: #1250B2
+    Orange: #FF3719
+    Light green: #9DCC14
+    Green: #87B209
+
+*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+/* Navbar */
+.navbar {
+  background: #1250B2; }
+  .navbar .fa-navicon {
+    color: white; }
+
+.nav-item {
+  margin-right: 20px; }
+  .nav-item a {
+    color: #FFFFFF;
+    transition: 0.3s; }
+    .nav-item a:hover {
+      color: #0062FF; }
+
+.h1.about,
+.h1.work,
+.h1.contact {
+  font-family: 'Montserrat', serif;
+  color: #87B209;
+  font-weight: bold;
+  cursor: default; }
+
+.footer a {
+  color: #FFFFFF;
+  margin-right: 30px;
+  transition: 0.3s; }
+  .footer a:hover {
+    color: #0062FF; }
+
+#about p {
+  line-height: 2.5; }
+
+/* Buttons */
+.btn-primary:not([disabled]):not(.disabled):active {
+  background-color: #FF2504;
+  box-shadow: 0 0 0 0.2rem rgba(255, 55, 25, 0.2); }
+
+.btn.btn-primary {
+  border: none;
+  border-radius: 0;
+  background-color: #FF3719;
+  color: #FFFFFF; }
+  .btn.btn-primary:hover {
+    background-color: #FF2504; }
+  .btn.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 55, 25, 0.2); }
+
+.half-rule {
+  margin: 0 auto;
+  text-align: left;
+  width: 70%; }
+
+/* Forms */
+.form-control:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 0.1rem rgba(255, 37, 4, 0.6); }
+
+/* Jumbotron */
+.display-1 {
+  color: #FF3719; }
+
+.white-overlay {
+  background: rgba(255, 255, 255, 0.6); }
+
+.jumbotron {
+  height: 50vh;
+  margin-bottom: 0; }
+
+.jumbotron.grass {
+  background-image: url("../assets/images/grass.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+.jumbotron.flowers {
+  background-image: url("../assets/images/flowers.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+.jumbotron.beach {
+  background-image: url("../assets/images/beach.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+.jumbotron.clouds {
+  background-image: url("../assets/images/clouds.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+/* Footer */
+.footer {
+  height: 40px;
+  line-height: 40px;
+  background-color: #1250B2; }
+
+.footer nav {
+  text-align: right; }
+
+/* Section */
+#about,
+#work,
+#contact {
+  padding: 20px; }
+
+#contact {
+  text-align: left; }
+
+/* Letters */
+#B-behnam {
+  font-family: 'Montserrat', serif;
+  color: #87B209;
+  font-weight: bold; }
+
+/* Card */
+.card-body {
+  color: #FFFFFF; }
+
+.card {
+  background-color: #0062FF;
+  transition: 0.6s;
+  border: 0; }
+  .card:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+  .card:hover .overlay {
+    height: 0;
+    top: 100%; }
+  .card a {
+    cursor: default; }
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 98, 255, 0.2);
+  transition: 300ms; }
+
+/* Carousel */
+.slick-slide:focus {
+  outline: none; }
+
+@media only screen and (max-width: 576px) {
+  .carousel {
+    display: none; }
+  #about p {
+    line-height: 2.0; }
+  .footer nav {
+    text-align: center; }
+  #contact {
+    text-align: center; } }
